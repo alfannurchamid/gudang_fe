@@ -1,0 +1,233 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.title {
+  @apply text-xl font-semibold
+}
+
+.title-items {
+  @apply text-lg font-semibold capitalize
+}
+
+.title-center {
+  @apply title text-center
+}
+
+.textOnMap {
+  @apply cursor-default tracking-widest font-medium
+}
+
+.link {
+  @apply text-blue-600 cursor-default
+}
+
+.link:hover {
+  @apply text-blue-400
+}
+
+/* btn indikasi */
+.btn-antipati {
+  @apply bg-fuchsia-400 cursor-default text-white text-center rounded-md uppercase font-semibold inline-block w-36 px-4 py-1
+}
+
+.btn-cuek {
+  @apply bg-pink-400 cursor-default text-white text-center rounded-md uppercase font-semibold inline-block w-36 px-4 py-1
+}
+
+.btn-memperhatikan {
+  @apply bg-lime-400 cursor-default text-gray-800 text-center rounded-md uppercase font-semibold inline-block w-36 px-4 py-1
+}
+
+.btn-simpati {
+  @apply bg-orange-400 cursor-default text-white text-center rounded-md uppercase font-semibold inline-block w-36 px-4 py-1
+}
+
+.btn-loyal {
+  @apply bg-violet-400 cursor-default text-white text-center rounded-md uppercase font-semibold inline-block w-36 px-4 py-1
+}
+
+.btn-aktif {
+  @apply bg-red-400 text-white text-center rounded-md uppercase font-semibold inline-block w-36 px-4 py-1
+}
+
+.btn-survey:active {
+  @apply border-4 border-yellow-300
+}
+
+/* btn indikasi */
+
+.btn-secondary {
+  @apply flex items-center justify-center px-2 w-24 h-8 cursor-default bg-white border-2 text-gray-500 font-medium text-sm leading-tight capitalize rounded-lg shadow-md transition duration-150 ease-in-out
+}
+
+.btn-secondary:focus {
+  @apply border-blue-300 ring-0
+}
+
+.btn-secondary:active {
+  @apply border-blue-400 ring-0
+}
+
+.btn-secondary:hover {
+  @apply border-blue-500 ring-0
+}
+
+.btn-primary {
+  @apply bg-blue-400 p-3 py-2 cursor-default rounded-xl text-white text-center text-xs font-semibold m-4
+}
+
+.fab {
+  @apply bg-blue-500 text-center text-white w-10 h-10 rounded-full text-2xl
+}
+
+.btn {
+  @apply px-4 py-2 h-10 uppercase font-semibold
+}
+
+.btn-primary:hover {
+  @apply bg-blue-500
+}
+
+.btn-tag {
+  @apply border border-collapse border-gray-400 h-6 mr-2 px-2 rounded-full text-sm
+}
+
+.btn-tag:hover {
+  @apply border-opacity-50
+}
+
+.btn-primary-small {
+  @apply btn-tag bg-blue-600 text-white
+}
+
+
+.btn-secondary-small {
+  @apply inline-block px-2 h-5 py-0.5 bg-white border-2 text-gray-500 cursor-default font-semibold text-xxs leading-tight uppercase rounded-full shadow-md transition duration-150 ease-in-out
+}
+
+.btn-secondary-small:focus {
+  @apply border-blue-300 ring-0
+}
+
+.btn-secondary-small:active {
+  @apply border-blue-400 ring-0
+}
+
+.btn-secondary-small:hover {
+  @apply border-blue-500 ring-0
+}
+
+/* hahah */
+
+.btn-success-small {
+  @apply bg-green-500 flex items-center justify-center py-0 px-2 uppercase text-xxs font-bold mx-2 rounded-lg transition-all duration-150 text-white cursor-default
+}
+
+.btn-success-small:focus {
+  @apply border bg-green-600 shadow-lg outline-none ring-0
+}
+
+.btn-success-small:active {
+  @apply bg-green-700 shadow-lg
+}
+
+.btn-success-small:hover {
+  @apply bg-green-400 shadow-lg -translate-y-0.5 drop-shadow-md
+}
+
+
+.btn-danger-small {
+  @apply btn-tag bg-orange-600 text-white px-4 py-2
+}
+
+
+.btn-danger-small {
+  @apply btn bg-orange-600 text-white
+}
+
+.btn-close {
+  @apply bg-red-600 text-white font-extrabold w-5 h-5 font-karla text-sm rounded-full
+}
+
+
+.items {
+  @apply bg-slate-200
+}
+
+.items-img {
+  @apply w-full bg-center
+}
+
+.inputA {
+  @apply border-collapse border-gray-300 border-2 rounded-md
+}
+
+.inputB {
+  @apply border border-slate-300 h-8 rounded-md px-2 mt-1 mb-5 w-full
+}
+
+.inputC {
+  @apply border-collapse border-gray-300 border-2 rounded-md px-4 items-center
+}
+
+.ckbx {
+  @apply w-5 h-5 border-0 rounded-sm bg-white transition duration-500 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer
+}
+
+.ckbx:checked {
+  @apply bg-blue-600 border-blue-600 accent-purple-500
+}
+
+.ckbx:focus {
+  @apply outline-none
+}
+
+/* batas elementor dan sub elementor */
+
+.footer-card {
+  @apply flex justify-between
+}
+
+.salah {
+  @apply border-2 border-red-500
+}
+
+.alert {
+  @apply text-xs
+}
+
+.tampil {
+  @apply hidden
+}
+
+.bodyPhone {
+  @apply w-full pt-10
+}
+
+.containerPhone {
+  @apply flex flex-col items-center px-5
+}
+
+.tabPasif {
+  @apply border-0 border-b-4 bg-gray-300
+}
+
+.tabAktif {
+  @apply border-4 border-b-0 bg-gray-100
+}
+
+.btnTugasRwAktif {
+  @apply bg-red-500
+}
+
+.btnTugasRwPasif {
+  @apply bg-slate-500
+}
+
+/* @media screen(md) {
+  .containerPhone {
+    @apply w-3/4
+  }
+} */
