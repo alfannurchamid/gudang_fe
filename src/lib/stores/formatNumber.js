@@ -1,0 +1,1 @@
+export let Nf = new Intl.NumberFormat("en-US");

@@ -74,8 +74,25 @@
   @apply border-blue-500 ring-0
 }
 
+
+.btn-success {
+  @apply flex items-center justify-center text-white px-2 w-24 h-8 cursor-default bg-green-400 shadow-sm font-medium text-sm leading-tight capitalize rounded-lg transition duration-150 ease-in-out
+}
+
+.btn-success:focus {
+  @apply bg-green-300 ring-0
+}
+
+.btn-success:active {
+  @apply bg-green-400 ring-0
+}
+
+.btn-success:hover {
+  @apply bg-green-500 ring-0
+}
+
 .btn-primary {
-  @apply bg-blue-400 p-3 py-2 cursor-default rounded-xl text-white text-center text-xs font-semibold m-4
+  @apply bg-indigo-400 p-2 py-1 cursor-default h-8 rounded-xl text-white text-center text-xs font-semibold flex items-center uppercase
 }
 
 .fab {
@@ -91,7 +108,7 @@
 }
 
 .btn-tag {
-  @apply border border-collapse border-gray-400 h-6 mr-2 px-2 rounded-full text-sm
+  @apply border border-collapse border-gray-400 rounded-full text-xs
 }
 
 .btn-tag:hover {
@@ -99,12 +116,12 @@
 }
 
 .btn-primary-small {
-  @apply btn-tag bg-blue-600 text-white
+  @apply btn-tag bg-indigo-400 text-white text-xs h-5
 }
 
 
 .btn-secondary-small {
-  @apply inline-block px-2 h-5 py-0.5 bg-white border-2 text-gray-500 cursor-default font-semibold text-xxs leading-tight uppercase rounded-full shadow-md transition duration-150 ease-in-out
+  @apply px-2 h-5 bg-white border-2 text-gray-500 cursor-default font-semibold text-xxs leading-tight uppercase rounded-full shadow-md transition duration-150 ease-in-out
 }
 
 .btn-secondary-small:focus {
@@ -122,7 +139,7 @@
 /* hahah */
 
 .btn-success-small {
-  @apply bg-green-500 flex items-center justify-center py-0 px-2 uppercase text-xxs font-bold mx-2 rounded-lg transition-all duration-150 text-white cursor-default
+  @apply bg-green-500 flex items-center justify-center h-4 uppercase text-xxs font-bold mx-2 rounded-lg transition-all duration-150 text-white cursor-default
 }
 
 .btn-success-small:focus {
@@ -139,16 +156,39 @@
 
 
 .btn-danger-small {
-  @apply btn-tag bg-orange-600 text-white px-4 py-2
+  @apply btn-tag bg-orange-300 pb-0.5 text-white px-2 cursor-default flex items-center justify-center
+}
+
+.btn-danger-small:hover {
+  @apply bg-orange-400
 }
 
 
-.btn-danger-small {
-  @apply btn bg-orange-600 text-white
+.btn-danger-xxs {
+  @apply bg-orange-500 flex items-center justify-center h-4 uppercase text-xxs font-bold mx-2 rounded-lg transition-all duration-150 text-white cursor-default
 }
+
+.btn-danger-xxs:focus {
+  @apply border bg-orange-600 shadow-lg outline-none ring-0
+}
+
+.btn-danger-xxs:active {
+  @apply bg-orange-700 shadow-lg
+}
+
+.btn-danger-xxs:hover {
+  @apply bg-orange-400 shadow-lg -translate-y-0.5 drop-shadow-md
+}
+
+
+
 
 .btn-close {
-  @apply bg-red-600 text-white font-extrabold w-5 h-5 font-karla text-sm rounded-full
+  @apply bg-gray-400 w-5 h-5 text-gray-200 rounded-full duration-100 transition-all float-right cursor-default flex items-center justify-center
+}
+
+.btn-close:hover {
+  @apply bg-gray-500
 }
 
 
@@ -165,7 +205,17 @@
 }
 
 .inputB {
-  @apply border border-slate-300 h-8 rounded-md px-2 mt-1 mb-5 w-full
+  @apply border border-slate-300 h-8 rounded-md px-2 mt-1 mb-5
+}
+
+
+
+.inputB1 {
+  @apply border border-slate-300 h-8 rounded-md px-2 mt-1
+}
+
+.inputB2 {
+  @apply border border-slate-300 h-6 rounded-md px-2 mt-1 mb-2
 }
 
 .inputC {
